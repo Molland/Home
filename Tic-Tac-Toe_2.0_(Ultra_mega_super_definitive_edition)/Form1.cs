@@ -25,8 +25,6 @@ namespace Tic_Tac_Toe_2._0__Ultra_mega_super_definitive_edition_
 
         int score_player2 = 0;
 
-        private Button[,] button = new Button[3, 3];
-
         private MediaPlayer backgroundMusicPlayer = new MediaPlayer();
 
         private string currentSoundPath = @"C:\Users\user\source\repos\C#\Tic-Tac-Toe_2.0_(Ultra_mega_super_definitive_edition)\Tic-Tac-Toe_2.0_(Ultra_mega_super_definitive_edition)\Resources\main-menu-1.wav";
@@ -47,16 +45,6 @@ namespace Tic_Tac_Toe_2._0__Ultra_mega_super_definitive_edition_
             backgroundMusicPlayer.Play();
 
             label6.ForeColor = System.Drawing.Color.Green;
-
-            for (int i = 0; i < 3; i++)
-            {
-                for (int j = 0; j < 3; j++)
-                {
-                    button[i, j] = new Button();
-                }
-            }
-
-            SetButton();
         }
 
         public delegate void ChangeMusicDelegate();
@@ -91,18 +79,6 @@ namespace Tic_Tac_Toe_2._0__Ultra_mega_super_definitive_edition_
         public void Public_Change_music2()
         {
             Change_music2();
-        }
-        private void SetButton()
-        {
-            for (int i = 0; i < 3; i++)
-            {
-                for (int j = 0; j < 3; j++)
-                {
-                    button[i, j].Text = "";
-
-                    this.Controls.Add(button[i, j]);
-                }
-            }
         }
         private void Button_Click(object sender, EventArgs e)
         {
