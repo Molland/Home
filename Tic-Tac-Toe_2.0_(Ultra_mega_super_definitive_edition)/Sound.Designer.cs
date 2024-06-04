@@ -116,6 +116,8 @@
             this.label8.TabIndex = 0;
             this.label8.Text = "Выкл";
             this.label8.Click += new System.EventHandler(this.label8_Click);
+            this.label8.MouseEnter += new System.EventHandler(this.label8_MouseEnter);
+            this.label8.MouseLeave += new System.EventHandler(this.label8_MouseLeave);
             // 
             // panel8
             // 
@@ -135,6 +137,8 @@
             this.label6.TabIndex = 0;
             this.label6.Text = "Вкл";
             this.label6.Click += new System.EventHandler(this.label6_Click);
+            this.label6.MouseEnter += new System.EventHandler(this.label6_MouseEnter);
+            this.label6.MouseLeave += new System.EventHandler(this.label6_MouseLeave);
             // 
             // label5
             // 
@@ -253,6 +257,7 @@
             this.Name = "Sound";
             this.ShowIcon = false;
             this.Text = "Sound";
+            this.Load += new System.EventHandler(this.Sound_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

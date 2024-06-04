@@ -29,9 +29,9 @@ namespace Tic_Tac_Toe_2._0__Ultra_mega_super_definitive_edition_
 
         private MediaPlayer backgroundMusicPlayer = new MediaPlayer();
 
-        private string currentSoundPath = @"C:\Users\user\OneDrive\Рабочий стол\main-menu-1.wav";
+        private string currentSoundPath = @"C:\Users\user\source\repos\C#\Tic-Tac-Toe_2.0_(Ultra_mega_super_definitive_edition)\Tic-Tac-Toe_2.0_(Ultra_mega_super_definitive_edition)\Resources\main-menu-1.wav";
 
-        private string secondSoundPath = @"C:\Users\user\OneDrive\Рабочий стол\main-menu-2.wav";
+        private string secondSoundPath = @"C:\Users\user\source\repos\C#\Tic-Tac-Toe_2.0_(Ultra_mega_super_definitive_edition)\Tic-Tac-Toe_2.0_(Ultra_mega_super_definitive_edition)\Resources\main-menu-2.wav";
         public Form1()
         {
             InitializeComponent();
@@ -214,7 +214,7 @@ namespace Tic_Tac_Toe_2._0__Ultra_mega_super_definitive_edition_
                 }
             }
 
-            if ( isDraw == false && num == 0)
+            if ( isDraw == false && num == 1)
             {
                 MessageBox.Show("Ничья!");
 
@@ -470,7 +470,7 @@ namespace Tic_Tac_Toe_2._0__Ultra_mega_super_definitive_edition_
         }
         private void Label5_MouseEnter(object sender, EventArgs e)
         {
-            string soundPath = @"C:\Users\user\OneDrive\Рабочий стол\Text_sound.wav";
+            string soundPath = @"C:\Users\user\source\repos\C#\Tic-Tac-Toe_2.0_(Ultra_mega_super_definitive_edition)\Tic-Tac-Toe_2.0_(Ultra_mega_super_definitive_edition)\Resources\Text_sound.wav";
 
             System.Media.SoundPlayer player = new System.Media.SoundPlayer(soundPath);
 
@@ -488,7 +488,7 @@ namespace Tic_Tac_Toe_2._0__Ultra_mega_super_definitive_edition_
         }
         private void Label3_MouseEnter(object sender, EventArgs e)
         {
-            string soundPath = @"C:\Users\user\OneDrive\Рабочий стол\Text_sound.wav";
+            string soundPath = @"C:\Users\user\source\repos\C#\Tic-Tac-Toe_2.0_(Ultra_mega_super_definitive_edition)\Tic-Tac-Toe_2.0_(Ultra_mega_super_definitive_edition)\Resources\Text_sound.wav";
 
             System.Media.SoundPlayer player = new System.Media.SoundPlayer(soundPath);
 
@@ -518,7 +518,7 @@ namespace Tic_Tac_Toe_2._0__Ultra_mega_super_definitive_edition_
         }
         private void Label4_MouseEnter(object sender, EventArgs e)
         {
-            string soundPath = @"C:\Users\user\OneDrive\Рабочий стол\Text_sound.wav";
+            string soundPath = @"C:\Users\user\source\repos\C#\Tic-Tac-Toe_2.0_(Ultra_mega_super_definitive_edition)\Tic-Tac-Toe_2.0_(Ultra_mega_super_definitive_edition)\Resources\Text_sound.wav";
 
             System.Media.SoundPlayer player = new System.Media.SoundPlayer(soundPath);
 
@@ -538,7 +538,7 @@ namespace Tic_Tac_Toe_2._0__Ultra_mega_super_definitive_edition_
         }
         private void Правила_MouseEnter(object sender, EventArgs e)
         {
-            string soundPath = @"C:\Users\user\OneDrive\Рабочий стол\Text_sound.wav";
+            string soundPath = @"C:\Users\user\source\repos\C#\Tic-Tac-Toe_2.0_(Ultra_mega_super_definitive_edition)\Tic-Tac-Toe_2.0_(Ultra_mega_super_definitive_edition)\Resources\Text_sound.wav";
 
             System.Media.SoundPlayer player = new System.Media.SoundPlayer(soundPath);
 
@@ -552,9 +552,9 @@ namespace Tic_Tac_Toe_2._0__Ultra_mega_super_definitive_edition_
         }
         private void PictureBox1_Click_1(object sender, EventArgs e)
         {
-            pictureBox1.ImageLocation = @"C:\Users\user\OneDrive\Рабочий стол\vecteezy_explosion-with-pixel-art-vector-illustration_8202209.png";
+            pictureBox1.ImageLocation = @"C:\Users\user\source\repos\C#\Tic-Tac-Toe_2.0_(Ultra_mega_super_definitive_edition)\Tic-Tac-Toe_2.0_(Ultra_mega_super_definitive_edition)\Resources\vecteezy_explosion-with-pixel-art-vector-illustration_8202209.png";
 
-            System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"C:\Users\user\OneDrive\Рабочий стол\vzryiv-bombyi.wav");
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"C:\Users\user\source\repos\C#\Tic-Tac-Toe_2.0_(Ultra_mega_super_definitive_edition)\Tic-Tac-Toe_2.0_(Ultra_mega_super_definitive_edition)\Resources\vzryiv-bombyi.wav");
 
             player.Play();
 
@@ -564,7 +564,7 @@ namespace Tic_Tac_Toe_2._0__Ultra_mega_super_definitive_edition_
 
             timer.Tick += (s, args) =>
             {
-                pictureBox1.ImageLocation = @"C:\Users\user\OneDrive\Рабочий стол\_ddd715e2-de59-411e-b627-ff45ba8a77dc.png";
+                pictureBox1.ImageLocation = @"C:\Users\user\source\repos\C#\Tic-Tac-Toe_2.0_(Ultra_mega_super_definitive_edition)\Tic-Tac-Toe_2.0_(Ultra_mega_super_definitive_edition)\Resources\_ddd715e2-de59-411e-b627-ff45ba8a77dc.png";
 
                 timer.Stop();
             };
@@ -601,7 +601,7 @@ namespace Tic_Tac_Toe_2._0__Ultra_mega_super_definitive_edition_
         }
         private void Label10_MouseEnter(object sender, EventArgs e)
         {
-            string soundPath = @"C:\Users\user\OneDrive\Рабочий стол\Text_sound.wav";
+            string soundPath = @"C:\Users\user\source\repos\C#\Tic-Tac-Toe_2.0_(Ultra_mega_super_definitive_edition)\Tic-Tac-Toe_2.0_(Ultra_mega_super_definitive_edition)\Resources\Text_sound.wav";
 
             System.Media.SoundPlayer player = new System.Media.SoundPlayer(soundPath);
 

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -537,7 +536,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Image = global::Tic_Tac_Toe_2._0__Ultra_mega_super_definitive_edition_.Properties.Resources._123;
             this.pictureBox2.Location = new System.Drawing.Point(-4, 9);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(1827, 79);
@@ -546,7 +545,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Image = global::Tic_Tac_Toe_2._0__Ultra_mega_super_definitive_edition_.Properties.Resources._ddd715e2_de59_411e_b627_ff45ba8a77dc;
             this.pictureBox1.Location = new System.Drawing.Point(1758, 854);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(142, 167);

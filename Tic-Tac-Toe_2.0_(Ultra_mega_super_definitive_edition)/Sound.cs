@@ -38,7 +38,7 @@ namespace Tic_Tac_Toe_2._0__Ultra_mega_super_definitive_edition_
         }
         private void label3_MouseEnter(object sender, EventArgs e)
         {
-            string soundPath = @"C:\Users\user\OneDrive\Рабочий стол\Text_sound.wav";
+            string soundPath = @"C:\Users\user\source\repos\C#\Tic-Tac-Toe_2.0_(Ultra_mega_super_definitive_edition)\Tic-Tac-Toe_2.0_(Ultra_mega_super_definitive_edition)\Resources\Text_sound.wav";
 
             System.Media.SoundPlayer player = new System.Media.SoundPlayer(soundPath);
 
@@ -56,7 +56,7 @@ namespace Tic_Tac_Toe_2._0__Ultra_mega_super_definitive_edition_
         }
         private void label4_MouseEnter(object sender, EventArgs e)
         {
-            string soundPath = @"C:\Users\user\OneDrive\Рабочий стол\Text_sound.wav";
+            string soundPath = @"C:\Users\user\source\repos\C#\Tic-Tac-Toe_2.0_(Ultra_mega_super_definitive_edition)\Tic-Tac-Toe_2.0_(Ultra_mega_super_definitive_edition)\Resources\Text_sound.wav";
 
             System.Media.SoundPlayer player = new System.Media.SoundPlayer(soundPath);
 
@@ -74,7 +74,7 @@ namespace Tic_Tac_Toe_2._0__Ultra_mega_super_definitive_edition_
         }
         private void label8_MouseEnter(object sender, EventArgs e)
         {
-            string soundPath = @"C:\Users\user\OneDrive\Рабочий стол\Text_sound.wav";
+            string soundPath = @"C:\Users\user\source\repos\C#\Tic-Tac-Toe_2.0_(Ultra_mega_super_definitive_edition)\Tic-Tac-Toe_2.0_(Ultra_mega_super_definitive_edition)\Resources\Text_sound.wav";
 
             System.Media.SoundPlayer player = new System.Media.SoundPlayer(soundPath);
 
@@ -92,7 +92,7 @@ namespace Tic_Tac_Toe_2._0__Ultra_mega_super_definitive_edition_
         }
         private void label6_MouseEnter(object sender, EventArgs e)
         {
-            string soundPath = @"C:\Users\user\OneDrive\Рабочий стол\Text_sound.wav";
+            string soundPath = @"C:\Users\user\source\repos\C#\Tic-Tac-Toe_2.0_(Ultra_mega_super_definitive_edition)\Tic-Tac-Toe_2.0_(Ultra_mega_super_definitive_edition)\Resources\Text_sound.wav";
 
             System.Media.SoundPlayer player = new System.Media.SoundPlayer(soundPath);
 
@@ -137,6 +137,11 @@ namespace Tic_Tac_Toe_2._0__Ultra_mega_super_definitive_edition_
         private void Change_music_volume(int volume)
         {
             form.GetMediaPlayer().Volume = volume / 100.0;
+        }
+
+        private void Sound_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
